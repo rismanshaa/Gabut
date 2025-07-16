@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .question {
+    background: #dcdcdc;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .options {
+    display: none;
+    margin: 10px 0;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c8bf5;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .answer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e0ffe0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

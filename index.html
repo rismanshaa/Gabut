@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tanggapan berbagai agama mengenai atheisme </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Belajar Tanggapan Agama</h1>
+
+  <div class="question" onclick="toggleOptions('q1')">Bagaimana agama (anda) melihat dan merespon keberadaan orang-orang yang memilih untuk tidak percaya kepada Tuhan?</div>
+  <div id="q1" class="options">
+    <button onclick="showAnswer('islam1')">Islam</button>
+    <button onclick="showAnswer('kristen1')">Kristen</button>
+    <button onclick="showAnswer('katolik1')">Katolik</button>
+    <button onclick="showAnswer('hindu1')">Hindu</button>
+    <button onclick="showAnswer('budha1')">Budha</button>
+  </div>  
+  <div class="question" onclick="toggleOptions('q2')">Apakah ada ajaran khusus yang membahas tentang mereka (atheis)?</div>
+  <div id="q2" class="options">
+    <button onclick="showAnswer('islam2')">Islam</button>
+    <button onclick="showAnswer('kristen2')">Kristen</button>
+    <button onclick="showAnswer('katolik2')">Katolik</button>
+    <button onclick="showAnswer('hindu2')">Hindu</button>
+    <button onclick="showAnswer('budha2')">Budha</button>
+  </div>  
+<div class="question" onclick="toggleOptions('q3')">Kalau anda diberi kesempatan berbincang langsung dengan seorang atheis muda yang terbuka untuk berdiskusi, pesan apa yang ingin anda sampaikan?</div>
+<div id="q3" class="options">
+    <button onclick="showAnswer('islam2')">Islam</button>
+    <button onclick="showAnswer('kristen2')">Kristen</button>
+    <button onclick="showAnswer('katolik2')">Katolik</button>
+    <button onclick="showAnswer('hindu2')">Hindu</button>
+    <button onclick="showAnswer('budha2')">Budha</button>
+  </div>
+
+  <div id="answerBox" class="answer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
